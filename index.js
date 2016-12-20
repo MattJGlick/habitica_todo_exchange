@@ -28,7 +28,9 @@ app.get('/todo/:key/:task', function(req, res) {
                 res.send("Something broke...")
             }
         });
-    } 
+    } else {
+        res.send("Bad key")
+    }
 });
 
 app.get('*', function(req, res) {
