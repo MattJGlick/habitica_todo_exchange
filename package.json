@@ -1,0 +1,20 @@
+{
+  "name": "habitica_todo_exchange",
+  "version": "1.0.0",
+  "description": "Intermediate between IFTTT/Todoist and Habitica",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattJGlick/habitica_todo_exchange.git"
+  },
+  "author": "Matt Glick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattJGlick/habitica_todo_exchange/issues"
+  },
+  "homepage": "https://github.com/MattJGlick/habitica_todo_exchange#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "request": "^2.79.0"
+  }
+}
