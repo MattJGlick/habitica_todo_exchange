@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Intermediate between IFTTT/Todoist and Habitica",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MattJGlick/habitica_todo_exchange.git"
